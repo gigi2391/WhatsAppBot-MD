@@ -50,7 +50,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 
-var ownernum = ['0','447405935355']
+var ownernum = ['0','40771048185']
 //-------------
 
 
@@ -70,7 +70,7 @@ global.APIKeys = {
 
    //---------------------------------------------------------------------
 
-   global.worktype = 'private'
+   global.worktype = 'public'
 
    //---------------------------------------------------------------------
    
@@ -79,13 +79,13 @@ global.APIKeys = {
 
    global.sudo = ['447405935355']
    //-------------
-   global.owner = ['447405935355']
+   global.owner = ['40771048185']
 
    //---------------------------------------------------------------------
    
-   global.packname = 'ＡＬＩＥＮ' 
+   global.packname = 'G I G E L' 
    //-------------
-   global.author = 'ＡＬＦＡ'
+   global.author = 'W O L ＡＬＦＡ''
 
    //---------------------------------------------------------------------
 
@@ -185,7 +185,7 @@ global.APIKeys = {
 //============ MAIN ============//
 
 //-------------
-global.premium = [`${ownernum}`]
+global.premium = [`{40771048185}`]
 //-------------
 global.sessionName = 'session.alfa'
 //-------------
@@ -195,7 +195,7 @@ global.sp = '𒆜'
 //-------------
 global.devname = 'ＡＬＩＥＮ ＡＬＦＡ'
 //-------------
-global.devNum = ['447405935355']
+global.devNum = ['40771048185']
 //-------------
 global.greetings = 'Hey  👋🏻'
 //-------------
@@ -254,8 +254,7 @@ global.thumb = fs.readFileSync('./lib/lowdb/adapters/alfa.jpg')
 global.mess = {
     success: 'ᴅᴏɴᴇ',
     errr: 'err',
-    admin: 'ᴏɴʟʏ ᴀᴅᴍɪɴ',
-    botAdmin: 'ɪ ᴡɪʟʟ ᴅᴏ ɪᴛ, ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ!',
+    adm'NIGGA only botAdminletAdmin: 'ɪ ᴡɪʟʟɪᴛᴏ ɪᴛ, ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ!',
     owner: 'ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ!',
     group: 'ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ᴀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ!',
     private: 'ᴛʜɪꜱ ɪꜱ ᴀ ɢʀᴏᴜᴘ, ᴜꜱᴇ ɪᴛ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ!',
@@ -277,3 +276,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+
